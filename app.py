@@ -6,7 +6,11 @@ from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
+from PIL import Image
 
+# Open and display an image
+image = Image.open('airlines.png')
+st.image(image, caption = ' ', use_column_width = True)
 
 st.title("Sentiment Analysis of Tweets about US Airlines")
 st.sidebar.title("Sentiment Analysis of Tweets")
