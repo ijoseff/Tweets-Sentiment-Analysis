@@ -16,7 +16,7 @@ st.title("Sentiment Analysis of Tweets about US Airlines")
 st.sidebar.title("Sentiment Analysis of Tweets")
 st.markdown("## This web app classify positive, negative, and neutral tweets, followed by categorizing negative reasons. Twitter data was scraped from February of 2015. 🐦")
 st.markdown("##### Created By Joseff Tan - [GitHub](https://github.com/ijoseff/Tweets-Sentiment-Analysis)")
-st.sidebar.markdown("This application is a Streamlit dashboard used "
+st.sidebar.markdown("This application is a dashboard used "
             "to analyze sentiments of tweets 🐦")
 
 @st.cache(persist=True)
